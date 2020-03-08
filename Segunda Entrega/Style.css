@@ -1,0 +1,294 @@
+
+body{
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/********************Titulo********************/
+h1{
+    color:rgb(155, 22, 128);
+    font-size: 65px;
+}
+.titulo1 i{
+    color:black;
+}
+/*********************header******************/
+#menu{
+    font-size: 25px;
+    width: px;
+}
+.menuPrincipal{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+
+}
+/****************banner********************/
+.fondoUno{
+    background-image: url(Fondo1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+    border: 0%;
+    margin-bottom: 40px;
+}
+#banner{
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: 600px;
+}
+#banner .contenedor{
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+}
+#banner h2{
+    font-size: 30px;
+}
+#banner p{
+    font-size: 20px;
+}
+#banner a{
+    display: block;
+    width: 140px;
+    color:white;
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 3px solid white;
+    font-size: 24px;
+}
+
+#banner a:hover{
+    background-color: rgb(216, 129, 129);
+}
+.leyendaImg{
+    font-size: 40px;
+    position: block;
+    margin-left: 870px;
+    padding-top: 190px;
+    font-family: cursive;
+    
+}
+.tituloServicio{
+    font-size: 40px;
+}
+/**********************estilos de la galeria******************/
+
+.galeria{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria li{
+    margin: 5px;
+}
+.galeria img{
+    width: 150px;
+    height: 100px;
+}
+.clickImagen{
+    height: 100px;
+    width: 100px;
+    margin-right: 1000px;
+}
+/******************Informacion de productos******************/
+#info{
+    background: linear-gradient(100deg, rgb(253, 159, 81), rgb(199, 70, 216), rgb(217, 255, 0));
+    animation: gradiente 6s infinite;
+    background-size: 500% 300%;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+@keyframes gradiente{
+    0% {background-position: 0%-25%;}
+    25% {background-position: 25%-50%;}
+    50% {background-position: 50%-75%;}
+    75% {background-position: 75%-100%;}
+    100% {background-position: 0%-100%;}
+}
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-materiales{
+    margin: 20px;
+
+}
+.info-materiales img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 7px solid white;
+
+}
+#info i{
+    color: white;
+}
+/******************Informacion de productos******************/
+#banner1{
+    position: relative;
+}
+#banner1 img{
+    width: 100%;
+    height: 600px;
+}
+#banner1 .contenedor{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(46, 27, 27);
+}
+#banner1 h2{
+    font-size: 30px;
+}
+#banner1 p{
+    font-size: 30px;
+    font-weight: bold;
+}
+#banner1 a{
+    display: block;
+    width: 140px;
+    color: rgb(46, 27, 27);
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 250px;
+    border: 3px solid  rgb(46, 27, 27);
+    font-size: 24px;
+}
+
+#banner1 a:hover{
+    background-color: rgb(209, 241, 243);
+
+    }
+/********************estilos del modal**********************/
+
+.modal{
+    display: none;
+    opacity: 0;
+}
+.modal:target{
+    display: block;
+    opacity: 1;
+    transition: all 0,5s;
+    position: fixed;
+    background-color: rgba(0, 0,0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3{
+    color: seashell;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+.imagen{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen a{
+    color: seashell;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+.imagen img{
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid whitesmoke;
+    box-sizing: border-box;
+}
+.cerrar{
+    display: block;
+    background-color: thistle;
+    width: 25px;
+    height: 25px;
+    margin: 18px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+#modal{
+    display: flex;
+}
+/***********************footer**********************/
+.footerPincipal{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    color:rgb(255, 0, 191);
+}
+.footerPincipal i{
+    font-size: 40px;
+}
+#footer{
+
+background-color: black; 
+padding-bottom: 5px;   
+justify-content: center;
+text-align: center;
+}
+a{
+    color: white;
+}
+/*************************icono de ws*************************/
+.btn-whatsapp {
+        display: block;
+        width: 60px;
+        height: 60px;
+        color: #fff;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        line-height: 80px;
+        text-align: center;
+        z-index: 999;
+}
+/* **************************videos de tecnicas**********************/
+#videos h2{
+font-size: 30px;
+font-style: oblique;
+}
+#videos i{
+    font-size: 50px;
+}
+#videos i{
+    transition: 4s;
+}
+#videos i:hover{
+    transform: translateX(10);
+}

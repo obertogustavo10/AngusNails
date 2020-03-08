@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+</head>
+<body>
+    <!--controles del formulario-->
+    <form action="POST">
+        <Label for="txtNombre">Nombre y apellido</Label>
+        <input type="text"name="txtNombre" placeholder="Ana Valle"/>
+        <br>
+        <br>
+        <Label for="txtTel">Telefono</Label>
+        <input type="number"name="txtTel" placeholder="11 2222 2222"/>
+        <br>
+        <br>
+        <Label for="txtDate">Fecha de nacimiento</Label>
+        <input type="date"name="txtDate" placeholder=""/>
+        <br>
+        <br>
+        <Label for="txtCorreo">Correo</Label>
+        <input type="email"name="txtCorreo" placeholder="anavalle@ejemplo.com"/>
+        <br>
+        <br>
+        <Label for="txtLst">Genero</Label>
+        <select name="Genero">
+            <option>Seleccionar</option>
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+            <option value="O">otros</option>
+          </select>
+          <br>
+          <br>
+          <Label for="txtChek">Como supistes de nosotros</Label><br><br>
+          <input type="checkbox" name="txtChek" value="redes"> Por redes sociales
+          <input type="checkbox" name="txtChek" value="amigo"> Recomendacion de una amiga<br><br>
+          <input type="submit" value="Enviar formulario"> <input type="reset" value="Limpiar formulario">
+    </form>
+
+    
+    
+</body>
+</html>
